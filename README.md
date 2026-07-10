@@ -1,4 +1,4 @@
-# Medication Tracker — Website
+# Vessalia Health — Website
 
 Three static pages for the App Store listing. No build step, no dependencies —
 plain HTML with inline CSS, light/dark mode aware.
@@ -24,11 +24,19 @@ plain HTML with inline CSS, light/dark mode aware.
 - **Marketing URL:** `https://<your-username>.github.io/medication-tracker-site/`
 - **Privacy Policy URL:** `https://<your-username>.github.io/medication-tracker-site/privacy.html`
 
-## Before you ship
+## App Store link
 
-- When the app is live, replace the "Coming soon to the App Store" button in
-  `index.html` with your real App Store link (and ideally Apple's official
-  "Download on the App Store" badge from
-  https://developer.apple.com/app-store/marketing/guidelines/).
-- If you ever add iCloud sync or analytics to the app, update `privacy.html`
-  first — it currently (accurately) promises zero data collection.
+The app is live. The "Download on the App Store" button in `index.html` links to:
+
+```
+https://apps.apple.com/us/app/vessalia-health-tracking/id6786770500
+```
+
+Optionally swap the text button for Apple's official "Download on the App Store"
+badge from https://developer.apple.com/app-store/marketing/guidelines/.
+
+## If the app changes
+
+- If you ever add your own iCloud sync, analytics, or accounts, update
+  `privacy.html` first — it currently (accurately) promises zero data
+  collection, with Apple Health sync handled on-device by Apple.
