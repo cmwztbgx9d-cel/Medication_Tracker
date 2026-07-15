@@ -37,6 +37,10 @@ badge from https://developer.apple.com/app-store/marketing/guidelines/.
 
 ## If the app changes
 
-- If you ever add your own iCloud sync, analytics, or accounts, update
+- If you ever add your own servers, analytics, or accounts, update
   `privacy.html` first — it currently (accurately) promises zero data
-  collection, with Apple Health sync handled on-device by Apple.
+  collection by us. Data can leave the device only via user-controlled,
+  Apple-handled paths: the optional iCloud backup (to the user's own
+  private iCloud), optional Apple Health sync, or manual file export.
+- Vessy, the assistant, runs on Apple Intelligence entirely on-device —
+  keep the privacy copy about it accurate if that ever changes.
